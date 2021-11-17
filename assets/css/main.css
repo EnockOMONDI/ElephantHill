@@ -3893,7 +3893,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 .services__icon::before {
   content: "";
-  background-color: rgba(106, 150, 31, 0.149);
+  background-color: rgba(255, 255, 255, 0);
   position: absolute;
   left: 0;
   top: 0;
@@ -3915,6 +3915,17 @@ input.main-search-input:-ms-input-placeholder {
   font-size: 60px;
   color: #fff;
   line-height: 100px;
+  text-align: center;
+  display: inline-block;
+}
+.services__icon2 {
+  background: #6a961f;
+  border-radius: 0 59px 47px 54px;
+  width: 100px;
+  height: 100px;
+  font-size: 60px;
+  color: #fff;
+  line-height: 80px;
   text-align: center;
   display: inline-block;
 }
